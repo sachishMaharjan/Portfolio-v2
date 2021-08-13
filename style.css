@@ -19,20 +19,34 @@ body {
   font-size: 4.8rem;
   margin-bottom: 0rem;
   font-weight: 700;
-  /* margin: 0 5 rem 0 5rem; */
 }
 
-.narrow h3 {
+.narrow h3{
   font-size: 2.4rem;
+  font-weight: 700;
+  letter-spacing: .2rem;
+}
+
+.narrow h4{
+  font-size: 1rem;
   margin-bottom: 1rem;
   font-weight: 700;
 }
 
-.narrow h5 {
+.narrow h5{
   font-size: 1.2rem;
   margin-bottom: 1rem;
   font-weight: 700;
 }
+
+
+/* --- Fab icon ----*/
+a{
+  margin-left: 0.8rem;
+}
+
+ 
+} */
 
 /* ---- Heading underline ----- */
 .heading-underline{
@@ -133,29 +147,16 @@ body {
 .skills svg.svg-inline--fa{
   color: #0EE3F5;
 }
-.narrow .skills h3{
-  font-size: 1.5rem;
-  text-transform: uppercase;
-  padding-bottom: .4rem;
-}
+
 .skills p{
-  font-size: 0.85rem;
+  font-size: 1rem;
 }
 
 /*---- Education Section --*/
 
-/* .narrow h3{
-  font-size: 1.7rem;
-  font-weight:700;
-  padding-top: 0.1rem;
-  padding-bottom: 0.4rem;
-} */
-.narrow h5{
-  font-size: 1.3rem;
-  padding-bottom: 0.2rem;
-}
+
 .education {
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 .education span{
   font-weight:700;
@@ -202,8 +203,19 @@ font-size: 1.1rem;
 hr.socket{
   width:100%;
   border-top: .1rem solid #666b71;
-  margin-top: 3rem;
+  margin-top: 0rem;
 }
+
+h3.contact{
+  font-size: 3.6rem;
+  color: #0EE3F5;
+}
+
+ /* ----  footer note  ----*/
+ h6 {
+   font-size: 1.2rem;
+   text-shadow: .1rem .1rem .3rem #0EE3F5;;
+ }
 
 /*--- Media Queries --*/
 
