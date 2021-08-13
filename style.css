@@ -14,6 +14,34 @@ body {
   margin-top:-5rem;
 }
 
+/* --- Heading for each sections ----- */
+.narrow h1{
+  font-size: 4.8rem;
+  margin-bottom: 0rem;
+  font-weight: 700;
+  /* margin: 0 5 rem 0 5rem; */
+}
+
+.narrow h3 {
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.narrow h5 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+/* ---- Heading underline ----- */
+.heading-underline{
+  width: 24rem;
+  height: .3rem;
+  background-color: #0EE3F5;
+  margin: 1rem auto 2rem;
+}
+
 /*--- Navigation --*/
 
 .navbar {
@@ -82,33 +110,26 @@ body {
   margin: 1.5rem auto;
   padding-top: 2rem;
 }
-.narrow h1{
-  font-size: 2.4rem;
-  margin-bottom: 2rem;
-}
+
+
 .lead {
-  font-size: 1.4rem;
-  text-align:center;
+  font-size: 1.6rem;
+  text-align:left;
 }
 
 /*--- Skills Section --*/
 .jumbotron{
-  margin-bottom: 0;
+  /* margin-bottom: 0; */
   padding: 0 0 2rem;
   border-radius: 0;
 }
-.narrow h3.heading  {
-  font-size: 2.5rem;
+/* .narrow h3.heading  {
+  font-size: 4.4rem;
   font-weight: 700;
-  text-transform: uppercase;
-  margin-bottom: 1.9rem;
-}
-.heading-underline{
-  width: 4rem;
-  height: .2rem;
-  background-color: #0EE3F5;
-  margin: 0 auto 2rem;
-}
+  /* text-transform: uppercase; */
+  /* margin-bottom: 1.9rem; */
+/* }  */
+
 .skills svg.svg-inline--fa{
   color: #0EE3F5;
 }
@@ -123,12 +144,12 @@ body {
 
 /*---- Education Section --*/
 
-.narrow h3{
+/* .narrow h3{
   font-size: 1.7rem;
   font-weight:700;
   padding-top: 0.1rem;
   padding-bottom: 0.4rem;
-}
+} */
 .narrow h5{
   font-size: 1.3rem;
   padding-bottom: 0.2rem;
